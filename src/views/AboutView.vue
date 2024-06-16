@@ -9,7 +9,7 @@
             <i class="pi pi-desktop icon text-primary-800" style="font-size: 2rem"></i>
           </h2>
         </template>
-        <template #subtitle>Client Composition</template>
+        <template #subtitle><div style="text-align: center">Client Composition</div></template>
         <template #content>
           <div class="font-bold">Vue js + Vite</div>
           <div style="display: flex; flex-direction: row">
@@ -42,7 +42,7 @@
             <i class="pi pi-server icon text-primary-800" style="font-size: 2rem"></i>
           </h2>
         </template>
-        <template #subtitle>Server Composition</template>
+        <template #subtitle><div style="text-align: center">Server Composition</div></template>
         <template #content>
           <div>
             <div class="font-bold">Google Firebase</div>
@@ -69,22 +69,6 @@
         </template>
       </p-Card>
     </div>
-    <!-- <div class="oc-container mt-6 mb-5">
-      <p-Card class="obsticles-card">
-        <template #title>
-          <i
-            class="pi pi-exclamation-triangle icon2 text-primary-800 mt-3"
-            style="font-size: 2rem"
-          ></i>
-          <h2 class="text-center">Obstacles & Challenges</h2>
-        </template>
-        <template #subtitle>Content Subtitle</template>
-        <template #content>
-          <div>Main Content</div>
-        </template>
-        <template #footer> </template>
-      </p-Card>
-    </div> -->
   </div>
 </template>
 
@@ -110,12 +94,9 @@
 }
 .client-card {
   min-width: 40vw;
-
-  /*  background-color: var(--surface-200); */
 }
 .server-card {
   min-width: 40vw;
-  /* background-color: var(--surface-200); */
 }
 .oc-container {
   display: flex;
